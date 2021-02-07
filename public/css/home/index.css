@@ -1,0 +1,15 @@
+.slick-prev:before {
+  color: #212529;
+}
+.slick-next:before {
+  color: #212529;
+}
+
+.slick-img {
+  height: 300px;
+}
+.slick-img img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100%;
+}

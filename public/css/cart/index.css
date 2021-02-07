@@ -1,0 +1,49 @@
+.shopping-cart {
+    width: 80%;
+margin: auto auto;
+background-color: #A0A085;
+}
+
+.product .product-image {
+    float:left;
+}
+.product-image img {
+    width: 35%;
+}
+
+.column-labels label {
+    padding-left: 3em;
+    float:right;
+}
+
+.product > div {
+    width: 33%;
+    display: inline-block;
+}
+
+.rowchart{
+    border-bottom:1px solid #c8c8c8;
+ }
+
+@media screen and (max-width: 500px){
+.rowchart{
+   border-bottom:1px solid #c8c8c8;
+    padding-bottom:15%;
+     padding-top:15%;
+}
+
+.mobchartprod h4{
+    font-size:1.25rem;
+}
+
+.mobpriceprod{
+    padding-bottom: 5%;
+    font-size: 1.25rem;
+}
+
+.mobqtprod{
+    display: block !important;
+    margin-bottom: 10% !important;
+}
+
+}
